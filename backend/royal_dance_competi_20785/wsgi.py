@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'royal_dance_competi_20785.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "royal_dance_competi_20785.settings")
 
 application = get_wsgi_application()
